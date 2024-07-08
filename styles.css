@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgb(73, 17, 169);
+    z-index: 9999;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.ingrediants-container{
+    margin-top: 7rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 80vw;
+    padding: 2rem;
+    display: flex;
+    border-radius: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+ol{
+    margin-left: 4rem;
+}
+
+h2{
+    color: rgb(73, 17, 169);
+}
